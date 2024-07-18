@@ -1,0 +1,36 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  margin: 30px 30%;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+.result {
+  display: flex;
+  justify-content: space-between;
+  button {
+    padding: 8x 32px;
+  }
+}
+
+.calculate {
+  margin-top: 8px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+button {
+  padding: 16px;
+  /* :hover {
+    background-color: aqua;
+  } */
+}
